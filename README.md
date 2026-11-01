@@ -3,7 +3,7 @@
 Group visual analytics project on the UCI Air Quality dataset (hourly, Mar 2004 to Apr 2005).
 
 ## Main file
-`AirQuality_Group.ipynb`: one notebook with Section 0 (data processing + data quality) and Tasks 1 to 4 in order. Outputs are saved in the notebook, so charts are visible without re-running.
+`COMP5048_A2_Group_Skeleton.ipynb`: one notebook with Section 0 (data processing + data quality) and Tasks 1 to 4 in order. Outputs are saved in the notebook, so charts are visible without re-running.
 
 ## Supporting code
 | File | Purpose | Owner |
@@ -14,11 +14,12 @@ Group visual analytics project on the UCI Air Quality dataset (hourly, Mar 2004 
 | `generate_views.py` | Exports the five Task 1 views as standalone HTML | B |
 | `app.py` | Linked-brushing Dash dashboard for Task 1 | B |
 | `figure_registry.md` | Registry of every figure (ID, encoding, interaction, file) | B |
+| `task3/MemberA_Task3.ipynb` | Task 3 critical moment and what-if analysis (figures in `task3/figures/`; data cells need Yuyao's Task 3 project folder) | A |
 
 ## How to run
 ```bash
-pip install pandas numpy plotly dash ipywidgets jupyter
-jupyter notebook AirQuality_Group.ipynb      # run all cells top to bottom
+pip install pandas numpy plotly dash ipywidgets jupyter kaleido scikit-learn
+jupyter notebook COMP5048_A2_Group_Skeleton.ipynb      # run all cells top to bottom
 python app.py                                # optional: dashboard at http://127.0.0.1:8050
 ```
 
